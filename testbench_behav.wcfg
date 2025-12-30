@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="832.770 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,177.796 ns"></ZoomEndTime>
+      <Cursor1Time time="235.329 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/testbench/top_inst/clk_div_inst/clk_1Hz" type="logic">
+      <obj_property name="ElementShortName">clk_1Hz</obj_property>
+      <obj_property name="ObjectShortName">clk_1Hz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/request" type="logic">
+      <obj_property name="ElementShortName">request</obj_property>
+      <obj_property name="ObjectShortName">request</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pedestrian_red" type="logic">
+      <obj_property name="ElementShortName">pedestrian_red</obj_property>
+      <obj_property name="ObjectShortName">pedestrian_red</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pedestrian_green" type="logic">
+      <obj_property name="ElementShortName">pedestrian_green</obj_property>
+      <obj_property name="ObjectShortName">pedestrian_green</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pedestrian_blue" type="logic">
+      <obj_property name="ElementShortName">pedestrian_blue</obj_property>
+      <obj_property name="ObjectShortName">pedestrian_blue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/car_red" type="logic">
+      <obj_property name="ElementShortName">car_red</obj_property>
+      <obj_property name="ObjectShortName">car_red</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/car_green" type="logic">
+      <obj_property name="ElementShortName">car_green</obj_property>
+      <obj_property name="ObjectShortName">car_green</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/car_blue" type="logic">
+      <obj_property name="ElementShortName">car_blue</obj_property>
+      <obj_property name="ObjectShortName">car_blue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_inst/counter_inst/count" type="array">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_inst/fsm_inst/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_inst/fsm_inst/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+</wave_config>
